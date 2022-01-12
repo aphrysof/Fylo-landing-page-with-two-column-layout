@@ -12,17 +12,18 @@ body {
 	font-family: 'Open Sans', sans-serif;
 }
 
-.container {
+.navigation__container {
+	display: flex;
+	align-items: center;
+	padding: 40px 0 40px 0;
+	justify-content: space-between;
 	max-width: 1440px;
 	margin: 0 auto;
 }
 
 .navigation {
-	display: flex;
 	width: 100%;
-	justify-content: space-between;
-	align-items: center;
-	padding: 40px 0 40px 0;
+	border-bottom: 1px solid #000;
 }
 
 .navigation__list {
@@ -37,4 +38,9 @@ body {
 
 .navigation__list li:not(:last-child) {
 	margin-right: 40px;
+}
+
+/*Media Queries Go Below*/
+@media screen and (max-width: 375px) {
+
 }
