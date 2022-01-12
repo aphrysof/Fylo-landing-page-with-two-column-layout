@@ -71,13 +71,20 @@ p {
     padding: 10px;
     width: 250px;
     border-radius: 3px;
-    border: 1px solid;
-	margin-top: 40px;
-    
+    border: 0.5px solid;
+	margin-top: 40px;   
 }
+
 ::placeholder{
     color: hsl(0, 0%, 75%);
 }
+input:not(:focus):required{
+    border-color: black;
+}
+input:focus:required:invalid {
+    border-color: red;
+  }
+
 .button {
     padding: 10px;
     margin-left: 10px;
@@ -89,6 +96,11 @@ p {
     color: White;
     cursor: pointer;
 }
+.button:hover{
+    background-color: hsl(224, 82%, 74%);
+}
+
+
 .site--description{
     margin-top: 7%;
     background-image: url(images/bg-curve-desktop.svg);
@@ -116,6 +128,12 @@ p {
     color: #3ca494;
     padding-top: 20px;
     text-decoration: underline;
+    
+    
+}
+.arrow--linked:hover{
+    color: #7cc8c8;
+    cursor: pointer;
 }
 
 .icon{
@@ -132,6 +150,7 @@ p {
     background-color: white;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     padding: 20px;
+    cursor: pointer;
 
 }
 

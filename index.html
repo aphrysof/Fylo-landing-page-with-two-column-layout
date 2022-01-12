@@ -43,13 +43,15 @@
             <p>Fly stores your most important siles in one secure location, Access <br> them wherever you need,
                share and collaborate with friends, family,<br>and co-workers.
             </p>
-            <div class="email--subscription">
-              <input type = "text" placeholder="Enter your email..." class="email"/>
-              <button class = "button"> Get Started </button>
-              
-            </div>
-            
-      
+            <form>
+              <div class="email--subscription">
+                <input type = "email" placeholder="Enter your email..."  required pattern=".+@gmail\.com" title = "Please check your email" class="email"/>
+               
+
+                <input type="submit" value="Get Started" class = "button">
+                
+              </div>
+            </form>
           </div>
           <img src = "images/illustration-1.svg" class = "illustration-1"/>
         
