@@ -23,12 +23,6 @@ body {
 
 .navigation {
 	width: 100%;
-<<<<<<< HEAD
-=======
-	justify-content: space-between;
-	align-items: center;
-	padding: 40px;
->>>>>>> 33c88cf (herosection)
 }
 
 .navigation__list {
@@ -44,12 +38,6 @@ body {
 .navigation__list li:not(:last-child) {
 	margin-right: 40px;
 }
-<<<<<<< HEAD
-
-/*Media Queries Go Below*/
-@media screen and (max-width: 375px) {
-
-=======
 .hero--section {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -99,5 +87,4 @@ p {
     background-color: hsl(224, 93%, 58%);
     color: White;
     cursor: pointer;
->>>>>>> 33c88cf (herosection)
 }
