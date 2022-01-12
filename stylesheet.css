@@ -41,17 +41,18 @@ body {
 .hero--section {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    padding: 5%;
 
 }
 .illustration-1{
 
     height: 350px;
-    margin-left: 30px;
+    margin-left: 15%;
 }
 .content--area{
     display: block;
-    margin-top: 30px;
-    margin-left: 30px;
+    
+    
 }
 h1{
     font-family: 'Raleway', sans-serif;
@@ -87,5 +88,67 @@ p {
     background-color: hsl(224, 93%, 58%);
     color: White;
     cursor: pointer;
+}
+.site--description{
+    margin-top: 7%;
+    background-image: url(images/bg-curve-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    
+}
+.description--section{
+   
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 5%;
+
+   
+}
+
+.arrow--linked{
+   
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #3ca494;
+    padding-top: 20px;
+    text-decoration: underline;
+}
+
+.icon{
+    
+    padding-left: 10px;
+    height: 1.5em;
+    border-bottom: 1px;
+}
+.testimonial--container{
+    margin-top: 50px;
+    border: 1px ;
+    border-radius: 6px;
+    height: 250px;
+    width: 350px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 20px;
+
+}
+
+.icon--quote{
+    height: 2vh;
+}
+.name{
+    display: flex;
+    padding: 10px;
+}
+.avatar{
+    border-radius: 50%;
+    height: 50px;
+    
+}
+.name--details{
+    margin: 5px;
+    padding-left: 15px;
 }
 
