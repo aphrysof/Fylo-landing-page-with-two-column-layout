@@ -95,6 +95,7 @@ input:focus:required:invalid {
     background-color: hsl(224, 93%, 58%);
     color: White;
     cursor: pointer;
+    transition: all .1s linear;
 }
 .button:hover{
     background-color: hsl(224, 82%, 74%);
@@ -169,5 +170,132 @@ input:focus:required:invalid {
 .name--details{
     margin: 5px;
     padding-left: 15px;
+}
+.cta {
+	background: hsl(238, 22%, 44%);
+	color: #fff;
+	
+}
+
+.cta__container {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	justify-items: center;
+    padding: 60px 60px;
+}
+
+.cta__heading {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	margin-bottom: 20px;
+	font-size: 25px;
+}
+
+.cta__form {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.cta__input {
+	padding: 15px;
+	width: 400px;
+	margin-bottom: 15px;
+}
+
+.cta__button {
+	outline: 0;
+	border: none;
+	padding: 15px 30px 15px 30px;
+	background: hsl(224, 94%, 58%);
+	color: #fff;
+	transition: all .1s linear;
+    cursor: pointer;
+}
+
+.cta__button:hover {
+	background: hsl(220, 100%, 71%);
+}
+
+.footer {
+	background: hsl(243, 87%, 12%);
+}
+
+.footer__container {
+	display: grid;
+	grid-template-columns: 1fr 2fr 1fr;
+	padding: 60px 60px;
+	align-items: center;
+	justify-content: center;
+}
+
+.footer__contacts {
+	display: flex;
+	flex-direction: column;
+}
+
+.footer__contacts a:first-child {
+	margin-bottom: 30px;
+}
+.info__details {
+    padding-right: 20px;
+}
+
+.footer__contacts a {
+	color: #fff;
+	text-decoration: none;
+	margin-bottom: 15px;
+}
+
+#footer__logo {
+	fill: #fff;
+}
+
+.footer__nav {
+	display: flex;
+	justify-content: space-around;
+    cursor: pointer;
+    margin-top: 20%;
+}
+
+.footer__nav ul {
+	list-style-type: none;
+}
+
+.footer__nav ul li {
+	color: #fff;
+}
+.footer__nav ul li:hover{
+    color: hsl(220, 100%, 71%);
+}
+
+.footer__socials {
+	display: flex;
+    margin-top: 20%;
+}
+
+.footer__socials a {
+	margin-left: 10px;
+	color: #fff;
+	border: 1px solid #fff;
+	border-radius: 50%;
+	height: 30px;
+	width: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+}
+
+.footer__socials a:hover{
+    background-color: hsl(220, 100%, 71%);
+}
+
+/*Media Queries Go Below*/
+@media screen and (max-width: 767.98px) {
+         body {
+             display:flex;
+             flex-direction: column;
+         }
 }
 
