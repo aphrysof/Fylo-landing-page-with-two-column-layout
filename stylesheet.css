@@ -290,12 +290,3 @@ input:focus:required:invalid {
 .footer__socials a:hover{
     background-color: hsl(220, 100%, 71%);
 }
-
-/*Media Queries Go Below*/
-@media screen and (max-width: 767.98px) {
-         body {
-             display:flex;
-             flex-direction: column;
-         }
-}
-
